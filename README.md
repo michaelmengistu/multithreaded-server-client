@@ -1,5 +1,5 @@
 # multithreaded-server-client
-server that can store and send any data file extremely fast by using multi-threading. 
+Created a server that can store and send any data file extremely fast by using multi-threading. 
 Also includes data files of 15 patients ECG values in the data base and makes a histogram of the data values of the patients to send to the client when requested. 
 
 ## How to run and use the server:
