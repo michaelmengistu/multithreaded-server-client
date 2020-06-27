@@ -12,5 +12,5 @@ Also includes data files of 15 patients ECG values in the data base and makes a 
 - place the client directory on a computer you want to access server on.
 - open a terminal in the client directory.
 - to request a histogram of the patients ECG values from the server, run the client executable file by typing `./client -n <number of ECG values>  -p <number of patients> -h <IP address of server> -r <assigned port number>` on the command line.
-- to request a file from the server, run the client executable file by typing `./client -n <number of ECG values>  -p <number of patients> -h <IP address of server> -r <assigned port number>`
+- to request a file from the server, run the client executable file by typing `./client -f <file name> -h <IP address of server> -r <assigned port number>`
 - The data files you received from server will be placed in "recv" directory.
