@@ -87,8 +87,7 @@ void process_file_request (TCPRequestChannel* rc, char* request){
 		return;
 	}
 
-	/* request buffer can be used for response buffer, because everything necessary have
-	been copied over to filemsg f and filename*/
+	
 	char* response = request; 
 
 	// make sure that client is not requesting too big a chunk
